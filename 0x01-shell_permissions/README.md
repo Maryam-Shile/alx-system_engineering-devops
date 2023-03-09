@@ -3,3 +3,4 @@ whoami prints the effective username of current user
 groups prints all groups a user is part of
 sudo chown changes the owner of file hello to betty
 touch created an empty file hello
+chmod u+x adds execute permission to the file owner hello
