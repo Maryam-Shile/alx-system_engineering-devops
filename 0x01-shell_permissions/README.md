@@ -10,4 +10,5 @@ chmod a+x hello adds execution permission to the owner, the group owner and the 
 chmod 007 sets permission only to the other users
 chmod 753 that sets the mode of the file hello to this: -rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello
 chmod --reference=olleh hello changed the permission of hello to be identical to olleh
-chmod -R a+x . changed the permission of only sub directories
+chmod -R a+X . changed the permission of only sub directories
+mkdir -m751 my_dir created a directory, my_dir, while setting its permission to 751
