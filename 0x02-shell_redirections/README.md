@@ -2,3 +2,4 @@ echo 'Hello, world' \n > 0-hello_world printed standard out put Hello world with
 echo '\'(Ôo)"' displays "(Ôo)' on the screen
 cat /etc/passwd displayed content of /etc/passwd file.
 cat /etc/passwd /etc/hosts diplayed the content of /etc/passwd and /etc/hosts
+tail -n 10 /etc/passwd displays last 10 lines of /etc/passwd
