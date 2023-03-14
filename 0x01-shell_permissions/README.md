@@ -12,3 +12,4 @@ chmod 753 that sets the mode of the file hello to this: -rwxr-x-wx 1 julien juli
 chmod --reference=olleh hello changed the permission of hello to be identical to olleh
 chmod -R a+X . changed the permission of only sub directories
 mkdir -m751 my_dir created a directory, my_dir, while setting its permission to 751
+chgrp school hello changes group owner of hello to school
