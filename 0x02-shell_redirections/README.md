@@ -7,3 +7,4 @@ head -n 10 /etc/passwd displays first 10 lines of /etc/passwd
 head -n 3 iacta| tail -n 3  displayed the third line of the file iacta
 
 ls -la > ls_cwd_content wrote  into the file ls_cwd_content the result of the command ls -la
+tail -n 1 iacta >> iacta duplicated the last line of iacta
