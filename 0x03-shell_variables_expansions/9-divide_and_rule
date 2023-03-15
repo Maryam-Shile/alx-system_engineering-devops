@@ -1,2 +1,3 @@
 #!/bin/bash
-echo $(expr $POWER / $DIVIDE ) \n
+echo $(expr $POWER / $DIVIDE )
+/
