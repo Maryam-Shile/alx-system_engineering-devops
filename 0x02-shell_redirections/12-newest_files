@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -t | sort -k6M -k7n | tail -n 10
+ls -t | head -n 10   
